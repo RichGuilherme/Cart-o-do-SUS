@@ -1,0 +1,170 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+}
+
+header {
+    background-color: #00903d;
+    background-image: url("/assents/bg-graphics-header.png");
+    background-size: cover;
+    background-position: left center;
+
+    height: 156px;
+}
+
+.containerTitulo{
+    display: flex;
+    gap: 13px;
+    padding: 22px 0 30px 15px;
+}
+
+.containerTitulo > img {
+    height: 65px;
+    width: 41px;
+}
+
+.titulo { 
+    color: white;
+}
+
+.titulo > h1 {
+    font-size: 23px;
+    text-shadow: 1px 0px 1px black;
+}
+
+.titulo > h2 {
+    color: rgb(236, 236, 236);
+    font-size: 16px;
+}
+
+.barraDuvidas {
+    height: 40px;
+    background-color: #28714668;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 8px;
+}
+
+.barraDuvidas p {
+    font-size: 16px;
+}
+
+main {
+    height: 100vh;
+    max-height: 83.6vh;
+
+    background-image: url("assents/bg-inicial.png");
+    background-position: 100% 100%;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.containerFormulario {
+    border: 2px dotted white;
+
+    width: 370px;
+    min-height: 310px;
+    padding: 27px 30px;
+
+    color:white
+}
+
+.containerFormulario p {
+    margin-top: 9px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid white;
+    font-size: 15px;
+}
+
+/* Estilização na parte do formulário de logar */
+
+.formularioLoga {
+   margin-top: 14px;
+}
+.formularioLoga input{
+   outline: none;
+   border: none;
+   border-radius: 30px;
+
+   width: 100%;
+   height: 40px;
+   padding-left: 10px;
+}
+.formularioLoga input:first-child{
+    margin-bottom: 5px;
+}
+
+.inputButton {
+   margin-top: 25px;
+   float: right;
+}
+.inputButton button {
+   border: none;
+   border-radius: 30px;
+   min-width: 141px;
+   height: 38px;
+
+   font-size: 0.9em;
+   color: white;
+
+   cursor: pointer;
+}
+.inputButton button:first-child {
+    background-color: #bfbfbf;
+}
+.inputButton button:last-child{
+   background-color: #0DC010;
+}
+
+
+/* Estilização na parte do formulário de registrar  */
+
+.formularioRegistrar {
+    margin-top: 14px;
+ }
+
+.formularioRegistrar input{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+ 
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.formularioRegistrar div {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 5px;
+}
+
+.formularioRegistrar button {
+   margin-top: 25px;
+   margin-left: 10px;
+
+   border: none;
+   border-radius: 30px;
+   min-width: 141px;
+   height: 38px;
+
+   font-size: 0.9em;
+   color: white;
+   background-color: #0DC010;
+
+   cursor: pointer;
+}
